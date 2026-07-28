@@ -7,7 +7,7 @@ Public beta update for Linux x86-64, HiveOS, and NVIDIA CMP 170HX.
 Create a Flight Sheet and choose **Custom miner**.
 
 - Installation URL:
-  `https://github.com/douyamv/q170hx-miner/releases/download/v0.15.4-beta/Q170HX-0.15.4_beta.tar.gz`
+  `https://github.com/douyamv/q170hx-miner/releases/download/v0.15.5-beta/Q170HX-0.15.5_beta.tar.gz`
 - Existing MinerLab account: keep the current username in the miner's extra
   configuration and keep the normal worker name
 - Direct Qubic wallet: `%WAL%.%WORKER_NAME%`
@@ -24,7 +24,7 @@ from the worker shell:
 
 ```bash
 /hive/miners/custom/custom-get \
-  https://github.com/douyamv/q170hx-miner/releases/download/v0.15.4-beta/Q170HX-0.15.4_beta.tar.gz \
+  https://github.com/douyamv/q170hx-miner/releases/download/v0.15.5-beta/Q170HX-0.15.5_beta.tar.gz \
   -f
 miner restart
 ```
@@ -34,7 +34,7 @@ miner restart
 Download the `.sha256` sidecar and verify:
 
 ```bash
-sha256sum -c Q170HX-0.15.4_beta.tar.gz.sha256
+sha256sum -c Q170HX-0.15.5_beta.tar.gz.sha256
 ```
 
 This is a CMP 170HX-specific beta. Do not run another miner on the same GPUs.
